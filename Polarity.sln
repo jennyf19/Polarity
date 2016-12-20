@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD01F93B-88E9-4615-8975-FD77AB7E053A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB8520FF-31F2-44D6-A6DD-39A3CACE1331}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Polarity", "src\Polarity\Polarity.xproj", "{52B94A91-8D55-484A-B733-6463EA5222D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B94A91-8D55-484A-B733-6463EA5222D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B94A91-8D55-484A-B733-6463EA5222D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B94A91-8D55-484A-B733-6463EA5222D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B94A91-8D55-484A-B733-6463EA5222D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52B94A91-8D55-484A-B733-6463EA5222D2} = {CD01F93B-88E9-4615-8975-FD77AB7E053A}
+	EndGlobalSection
+EndGlobal
